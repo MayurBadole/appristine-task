@@ -1,0 +1,304 @@
+.listing-details-child,
+.listing-items-child {
+  width: 340px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.listing-items-child {
+  height: 205px;
+  border-radius: var(--br-mini) var(--br-mini) 0 0;
+  object-fit: cover;
+}
+.listing-details-child {
+  height: 99px;
+}
+.listing-background,
+.listing-border,
+.listing-overlay {
+  height: 8px;
+  width: 8px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--style-4);
+}
+.listing-border,
+.listing-overlay {
+  background-color: var(--color-cornflowerblue);
+}
+.listing-border {
+  background-color: var(--style-4);
+}
+.listing-attributes,
+.listing-details,
+.listing-items {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.listing-attributes {
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+  z-index: 5;
+}
+.listing-details,
+.listing-items {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.listing-details {
+  flex: 1;
+  background: linear-gradient(179.44deg, transparent, rgba(0, 0, 0, 0.84));
+  justify-content: center;
+  padding: var(--padding-53xl) var(--padding-xl) var(--padding-lgi);
+  z-index: 4;
+}
+.listing-items {
+  align-self: stretch;
+  border-radius: var(--br-mini) var(--br-mini) 0 0;
+  justify-content: flex-start;
+  padding: var(--padding-86xl) 0 var(--padding-12xs);
+  background-image: url(/public/rectangle-24@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  z-index: 3;
+}
+.listing-titles-child {
+  width: 340px;
+  height: 322px;
+  position: relative;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-mini);
+  background-color: var(--style-4);
+  display: none;
+  max-width: 100%;
+}
+.yacht-charter-in {
+  position: relative;
+  line-height: 22px;
+  font-weight: 500;
+  z-index: 3;
+}
+.mappin-icon {
+  height: 14px;
+  width: 14px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 14px;
+  z-index: 4;
+}
+.washington-ave-manchester {
+  position: relative;
+  z-index: 3;
+}
+.address-container,
+.address-label {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.address-label {
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+}
+.address-container {
+  flex-direction: row;
+}
+.guest-number,
+.users-icon {
+  position: relative;
+  z-index: 3;
+}
+.users-icon {
+  height: 14px;
+  width: 14px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 14px;
+}
+.guest-number {
+  height: 8px;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 8px;
+}
+.guest-count,
+.guest-icons {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.guest-count {
+  flex-direction: column;
+  padding: var(--padding-10xs) 0 0;
+}
+.guest-icons {
+  flex-direction: row;
+  gap: var(--gap-6xs);
+}
+.pawprint-icon {
+  height: 14px;
+  width: 14px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.pets-arent-allowed {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 114px;
+  z-index: 3;
+}
+.pet-label,
+.pet-policy {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.pet-label {
+  flex-direction: column;
+  padding: var(--padding-10xs) 0 0;
+}
+.pet-policy {
+  flex-direction: row;
+  gap: var(--gap-6xs);
+}
+.boat-type1,
+.cards-icon {
+  position: relative;
+  z-index: 3;
+}
+.cards-icon {
+  height: 14px;
+  width: 14px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.boat-type1 {
+  line-height: 22px;
+  display: inline-block;
+  min-width: 60px;
+}
+.boat-categories,
+.category-label,
+.guest-details {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.category-label {
+  flex-direction: column;
+  padding: var(--padding-10xs) 0 0;
+}
+.boat-categories,
+.guest-details {
+  flex-direction: row;
+  gap: var(--gap-6xs);
+}
+.guest-details {
+  gap: var(--gap-mini);
+}
+.listing-navigation-child {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 3;
+}
+.guest-info,
+.listing-address,
+.listing-navigation {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.listing-navigation {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-11xs);
+}
+.guest-info,
+.listing-address {
+  flex-direction: column;
+  gap: var(--gap-12xs-5);
+  font-size: var(--font-size-xs);
+  color: var(--color-dimgray-300);
+  font-family: var(--font-poppins);
+}
+.listing-address {
+  gap: var(--gap-4xs);
+  font-size: var(--font-size-3xs);
+  color: var(--color-dimgray-200);
+  font-family: var(--body-medium-500);
+}
+.span {
+  color: var(--color-mediumslateblue);
+}
+.per-hour,
+.price-250-container {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  z-index: 3;
+}
+.price-250-container {
+  font-weight: 500;
+  min-width: 81px;
+}
+.per-hour {
+  color: var(--color-mediumslateblue);
+  min-width: 59px;
+}
+.listing-pricing,
+.price-details {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.price-details {
+  gap: var(--gap-4xs);
+}
+.listing-pricing {
+  padding: 0 var(--padding-9xs);
+  font-size: var(--body-medium-500-size);
+  color: var(--color-dimgray-300);
+}
+.listing-container,
+.listing-titles {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.listing-titles {
+  align-self: stretch;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-mini);
+  background-color: var(--style-4);
+  justify-content: flex-end;
+  padding: var(--padding-190xl) var(--padding-3xs) var(--padding-5xs);
+  box-sizing: border-box;
+  gap: var(--gap-7xs-8);
+  z-index: 2;
+  margin-top: -199px;
+}
+.listing-container {
+  width: 340px;
+  justify-content: flex-start;
+  min-width: 323px;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 450px) {
+  .guest-details {
+    flex-wrap: wrap;
+  }
+}
